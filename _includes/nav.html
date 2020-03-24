@@ -1,0 +1,74 @@
+{% comment %} Navbar {% endcomment %}
+<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="{{ site.baseurl }}/">
+        <div class="logo-container">
+          <div class="logo">
+            <img src="{{ site.avatar }}" alt="{{ site.name }} Logo" rel="tooltip" title="{{ site.description }}" data-placement="bottom" data-html="true">
+          </div>
+        <div class="brand">
+            {{ site.name }}
+        </div>
+
+
+        </div>
+          </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navigation-index">
+        <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="/">
+            <i class="material-icons">home</i> Home
+          </a>
+        </li>
+        <li>
+          <a href="/devis">
+            <i class="material-icons">web</i> Devis
+          </a>
+        </li>
+        <li>
+          <a href="/blog">
+            <i class="material-icons">dashboard</i> Blog
+          </a>
+        </li>
+
+        <li>
+          <a href="/about">
+            <i class="material-icons">unarchive</i> About
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="material-icons">person</i> Espace personnel
+          </a>
+        </li>
+        <li>
+          <a rel="tooltip" title="Just a try, I don't have Twitter" data-placement="bottom" href="#" class="btn btn-white btn-simple btn-just-icon">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a rel="tooltip" title="Still just a try." data-placement="bottom" href="#" class="btn btn-white btn-simple btn-just-icon">
+            <i class="fa fa-facebook-square"></i>
+          </a>
+        </li>
+        <li>
+          <a rel="tooltip" title="Instagram is for travel pictures, right ?" data-placement="bottom" href="#" class="btn btn-white btn-simple btn-just-icon">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+
+        </ul>
+      </div>
+  </div>
+</nav>
+{% comment %} End navbar {% endcomment %}

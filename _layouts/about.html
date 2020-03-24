@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="header header-filter" style="background-image: url('{{ site.baseurl }}/{{ page.image }}');"></div>
+
+    <div class="main main-raised">
+      <div class="profile-content">
+        <div class="container">
+          <div class="row">
+            <div class="profile">
+              <div class="avatar">
+                <img src="../assets/img/christian.jpg" alt="Circle Image" class="img-circle img-responsive img-raised">
+              </div>
+              <div class="name">
+                <h3 class="title">{{ site.name }}</h3>
+                <h6>Développeur web</h6>
+              </div>
+            </div>
+          </div>
+          <div class="description text-center">
+            <p>Créateur de solutions web</p>
+          </div>
+
+          {{ content }}
+      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
